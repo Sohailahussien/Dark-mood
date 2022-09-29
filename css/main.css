@@ -1,0 +1,50 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.ico{
+    margin: 30px auto;
+    text-align:center;
+}
+i{
+    font-size: 50px;
+    color: rgb(92, 41, 7);
+}
+
+.container .card{
+    width:100% ;
+    border: 1px solid rgb(226, 131, 68);
+    border-radius: 10px;
+    margin:10px auto;
+    padding: 10px;
+    box-shadow: 5px 5px  5px 5px rgb(226, 131, 68);
+    transition: all 0.5s;
+}
+.dark{
+    background-color: rgb(70, 32, 7);
+    color: white;
+    border-radius: 10px;
+
+}
+.dark .card{
+    box-shadow: 5px 5px  5px 5px rgb(98, 94, 91);
+}
+.darkButton{
+    background-color: rgb(226, 131, 68);
+    color: white;
+    border-radius: 10px;
+    border: 1px solid rgb(248, 161, 61);
+}
+button{
+    padding: 10px;
+    font-size: 20px;
+    border-radius: 10px;
+    background-color: rgb(234, 146, 75);
+}
+
+
+@media(max-width:750px){
+    .container .card{
+        width: 90%;
+    }
+}
